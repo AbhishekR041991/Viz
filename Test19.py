@@ -9,7 +9,7 @@ df = pd.read_csv(file_path)
 
 # Step 2: Aggregate data by Country and sum revenue
 revenue_by_country = df.groupby('Country')['Revenue'].sum().reset_index()
-
+server - app.server
 # Function to update plots and table based on selected country
 def update_data(country):
     # Filter data for selected country
